@@ -3,7 +3,6 @@ import MessageDisplay from "./MessageDisplay";
 import "./MessagesDisplay.css";
 
 const MessagesDisplay = () => {
-  const selectedQuery = useQueryStore((state) => state.selectedQuery);
   const setSelectedQuery = useQueryStore((state) => state.setSelectedQuery);
   const queries = useQueryStore((state) => state.queries);
 
