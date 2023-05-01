@@ -1,0 +1,27 @@
+body {
+  @apply relative h-screen w-screen bg-[#fafafa] flex justify-center items-center;
+}
+
+.app {
+  @apply flex flex-col justify-between bg-white h-[80vh] w-[80vw] rounded-md shadow-md p-4;
+}
+
+.query-container {
+  @apply w-[96%] mx-auto my-2;
+}
+
+.query-container input {
+  @apply w-full py-3 px-4 outline-none border rounded;
+}
+
+.btn-container {
+  @apply flex justify-end w-[96%] mx-auto mt-2;
+}
+
+.get-query {
+  @apply uppercase bg-[#fc544d] hover:bg-[#fc544d]/80 rounded-s-md px-2 py-1;
+}
+
+.clear-chat {
+  @apply uppercase bg-[#ffb532] hover:bg-[#ffb532]/80 rounded-e-md px-2 py-1;
+}

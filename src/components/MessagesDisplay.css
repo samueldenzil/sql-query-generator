@@ -1,0 +1,7 @@
+.messages-display {
+  @apply h-[40%] w-[96%] mx-auto overflow-y-auto;
+}
+
+.messages-display div {
+  @apply cursor-pointer;
+}
